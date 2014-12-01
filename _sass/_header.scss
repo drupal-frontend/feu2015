@@ -1,0 +1,40 @@
+
+// HEADING
+// =============================================================================
+
+header {
+    background: #ea5d34;
+    .wrapper {
+      background: #ea5d34 url(../public/images/slogan.png) no-repeat 30px bottom;
+      margin-bottom: 30px;
+    }
+    .site-logo {
+      float: right;
+      margin-top: 20px;
+    }
+    .site-title {
+      font-weight: bold;
+      font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      color: white;
+      line-height: 100px;
+      font-size: 50px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    img {
+      width: 247px;
+      height: auto;
+    }
+    .event-dates {
+      float: right;
+      clear: both;
+      font-weight: bold;
+      font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      color: white;
+      font-size: 20px;
+      margin-top: 15px;
+    }
+}
