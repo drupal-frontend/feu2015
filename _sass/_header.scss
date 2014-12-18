@@ -4,37 +4,49 @@
 
 header {
     background: #ea5d34;
+    overflow: hidden;
     .wrapper {
-      background: #ea5d34 url(../public/images/slogan.png) no-repeat 30px bottom;
-      margin-bottom: 30px;
+      background: #ea5d34;
+      @media (min-width: 768px) {
+        background: #ea5d34 url(../public/images/slogan.png) no-repeat 30px bottom;
+      }
+      margin: 20px auto 30px;
+      overflow: hidden;
     }
     .site-logo {
-      float: right;
-      margin-top: 20px;
+      @media (min-width: 960px) {
+        float: right;
+      }
     }
     .site-title {
       font-weight: bold;
       font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
       text-transform: uppercase;
       color: white;
-      line-height: 100px;
+      line-height: 1em;
       font-size: 50px;
       &:hover {
         text-decoration: none;
       }
     }
     img {
-      width: 247px;
+      width: 184px;
       height: auto;
+      @media (min-width: 768px) {
+        width: 247px;
+      }
     }
     .event-dates {
-      float: right;
-      clear: both;
+
       font-weight: bold;
       font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
       text-transform: uppercase;
       color: white;
       font-size: 20px;
       margin-top: 15px;
+      @media (min-width: 960px) {
+        float: right;
+        clear: both;
+      }
     }
 }

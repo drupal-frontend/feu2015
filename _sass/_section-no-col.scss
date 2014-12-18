@@ -1,0 +1,26 @@
+.section.no-columns {
+  padding: 30px 0;
+  overflow: hidden;
+  h2,
+  p {
+    float: left;
+  }
+  img {
+    display: block;
+    margin-bottom: 10px;
+    @media (min-width: 768px) {
+      float: right;
+      width: 25%;
+      margin: 0;
+    }
+  }
+  img + p,
+  h2 {
+    @media (min-width: 768px) {
+      width: 73%;
+      margin-right: 2%;
+    }
+  }
+}
+
+
