@@ -1,10 +1,7 @@
 <div class="section photo photo-1 no-columns">
   <div class="wrapper">
-    <h2>Grab your ticket now</h2>
-    <p>Tickets are available now and gives you access to the entire event.</p>
-    <button href="https://ti.to/frontendunited/bristol-2015" title="Buy your ticket today"> Buy ticket now</button>
-    <p><strong>Early bird</strong> until 14th March <strong>£45</strong> </p>
-    <p><strong>Standard ticket</strong> 15th March - 18th May <strong>£65</strong></p>
-    <p><strong>Late-comers</strong> 18th May to showtime <strong>£85</strong></p>
+  	{% if page.photo-1-section %}
+    	{{ page.photo-1-section | markdownify }}
+    {% endif %}
   </div>
 </div>

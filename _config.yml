@@ -1,6 +1,8 @@
 name: Frontend United 2015
 title: Frontend United
 markdown: redcarpet
-pygments: true
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: pygments
 baseurl: /feu2015
 dates: 5 - 7th June 2015

@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
+no-col: #Bristol Baby!
+photo-1-section: photo-1-section text
+three-col: three col 
+no-col-img: This is something no col image
+no-col2: dgfsdf no col 2 
+two-col: sdgsdf two col
 ---
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)

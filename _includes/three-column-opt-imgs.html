@@ -1,19 +1,9 @@
 <div class="section three-column">
   <div class="wrapper">
     <div class="column">
-      <img src="public/images/cat.jpg" alt="I am a cat" />
-      <h2>Friday - Sprinting & lightning talks</h2>
-      <p>Come along from Xpm. Meet the organisers, catch up with mates. Contribute and shout about whatever you want!</p>
-    </div>
-    <div class="column">
-      <img src="public/images/cat.jpg" alt="I am a cat" />
-      <h2>Saturday Conference day 1</h3>
-      <p>We will blow your pretty mind. We've got some great speakers lined up for today. They'll inspire, motivate and maybe even educate you!</p>
-    </div>
-    <div class="column last">
-      <img src="public/images/cat.jpg" alt="I am a cat" />
-      <h2>Super Sunday Sprint day</h3>
-      <p>There is no rest this Sunday - We want you to help us make Drupal 8 awesome. Come sprint with us and let's FRONTEND HARDER!</p>
+      {% if page.three-col %}
+        {{ page.three-col | markdownify }}
+      {% endif %}
     </div>
   </div>
 </div>

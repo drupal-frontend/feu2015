@@ -1,7 +1,7 @@
 <div class="section no-columns">
   <div class="wrapper">
-    <h1>Bristol baby!</h1>
-    <p>Frontend United, formerly known as Drupal Design Camp, is a yearly European conference that moves from country to country. Its aim is to bring front-end developers, designers and Drupal themers from all kinds of backgrounds closer together and share knowledge, experiences and ideas face-to-face. Frontend United looks to help grow the local community as well as build bridges across Europe for further collaborations and cross-border exchange.</p>
-    <p>In June we’re heading to <a href="http://www.hamiltonhouse.org/">Hamilton House in Bristol</a> and we want you to join us for a weekend of Drupal’s Frontend and all it's dangly bits. Three days of awesome talks where design and Drupal meet and make warm fuzzies in your belly. Plus some Drupal sprinting thrown in! </p>
+  	{% if page.no-col %}
+    	{{ page.no-col | markdownify }}
+    {% endif %}
   </div>
 </div>
