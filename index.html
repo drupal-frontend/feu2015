@@ -2,4 +2,24 @@
 layout: default
 title: Home
 ---
-hhhhhh
+
+<!-- This is for the homepage content. You can create for html files in
+the _includes folder and include them like below.
+Plus you can just add html code straight in here amongst the includes
+for any new sections.
+This content gets loaded in the default.html layout in _layouts where it
+says {{ content }} -->
+
+{% include header.html %}
+
+{% include only-text-no-columns.html %}
+
+{% include photo-1-section.html %}
+
+{% include three-column-opt-imgs.html %}
+
+{% include text-opt-img-no-columns.html %}
+
+{% include two-column-opt-imgs.html %}
+
+{% include footer.html %}
