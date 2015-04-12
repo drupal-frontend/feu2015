@@ -108,8 +108,8 @@ a {
     }
 }
 
-button {
-    background: orange;
+.button {
+    background: $brand-color;
     border: 1px solid white;
     border-radius: 6px;
     padding: 0.5em;
@@ -119,7 +119,24 @@ button {
     font-weight: bold;
     text-transform: uppercase;
     float: right;
+    &:visited {
+        color: white;
+    }
+    &:hover {
+        background: darken($brand-color, 15%);
+        color: white;
+        text-decoration: none;
+    }
+    @media (max-width: 768px) {
+        clear: both;
+        float: none;
+        display: block;
+        margin-bottom: 1em;
+        text-align: center;
+    }
 }
+
+
 
 
 /**
