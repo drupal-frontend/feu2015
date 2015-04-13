@@ -1,11 +1,22 @@
 <header class="site-header">
 
-  <div class="wrapper">
-      <a class="site-title" title-"Frontend United" href="{{ site.baseurl }}/">{{ site.title }}</a>
-       <a href="{{ site.baseurl }}/" title="Frontend United Bristol 2015" rel="home" class="site-logo"><img src="public/images/site-logo.png" alt="<?php print t('Home'); ?>" /></a>
-       <div class="event-dates">{{ site.dates }}</div>
+  <div class="top-wrapper">
+    <div class="wrapper-left">
+      <a class="site-title" href="{{ site.baseurl }}/"><img src="public/images/FrontendUnitedLogoDark.svg" onerror="this.onerror=null; this.src='FrontendUnitedLogoDark.png'" alt="{{ site.title }}"></a>
+    </div>
+    <div class="wrapper-right">
+      <img class="slogan" src="public/images/slogan.svg" onerror="this.onerror=null; this.src='slogan.png'" alt="{{ site.title }}">
+    </div>
 
-  <!--   <nav class="site-nav">
+    <div class="wrapper-center">
+      <a href="{{ site.baseurl }}/" rel="home" class="site-logo"><img src="public/images/Bristol.svg" onerror="this.onerror=null; this.src='Bristol.png'" alt="Bristol"></a>
+      <div class="event-dates">{{ site.dates }}</div>
+    </div>
+
+  </div>
+
+  <nav class="site-nav">
+    <div class="wrapper">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
           <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
@@ -20,9 +31,9 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+        <a href="https://ti.to/frontendunited/bristol-2015" class="page-link site-nav_buy" title="Buy your ticket today">Buy a ticket</a>
       </div>
-    </nav> -->
-
-  </div>
+    </div>
+  </nav>
 
 </header>

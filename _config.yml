@@ -4,3 +4,4 @@ markdown: redcarpet
 pygments: true
 baseurl: /feu2015
 dates: 5 - 7th June 2015
+host: localhost

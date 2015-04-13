@@ -3,54 +3,96 @@
 // =============================================================================
 
 header {
+  background: #ea5d34;
+  overflow: hidden;
+  .top-wrapper {
     background: #ea5d34;
+    margin: 1.5em auto .5em;
     overflow: hidden;
-    .wrapper {
-      background: #ea5d34;
-      @media (min-width: 768px) {
-        background: #ea5d34 url(../public/images/slogan.png) no-repeat 30px bottom;
-      }
-      margin: 20px auto 30px;
-      overflow: hidden;
+    padding: 0 4%;
+    @media (min-width: 1024px) {
+      padding: 0 2%;
+      max-width: 1024px;
     }
-    .site-logo {
-      @media (min-width: 768px) {
-        float: right;
-      }
-    }
-    .site-title {
-      font-weight: bold;
-      font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
-      text-transform: uppercase;
-      color: white;
-      line-height: 1em;
-      font-size: 50px;
-      &:hover {
-        text-decoration: none;
-      }
-       @media (max-width: 768px) {
-        font-size: 30px;
-        width: 100%; // push the Bristol logo below
-      }
-    }
-    img {
-      width: 184px;
-      height: auto;
-      @media (min-width: 768px) {
-        width: 247px;
-      }
-    }
-    .event-dates {
 
-      font-weight: bold;
+  }
+  .site-logo  img {
+    width: 75%;
+  }
+  .site-title img {
+    margin-top: 14%;
+    width: 85%;
+  }
+  .slogan {
+    margin-top: 14%;
+    width: 68%;
+  }
+  .event-dates {
+    font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    @media (min-width: 768px) {
+      clear: both;
+    }
+  }
+
+  @media (min-width: 600px) {
+
+    .site-nav {
+      background-color: #3C3C3B;
+      clear: both;
+      color: #fff;
       font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
-      text-transform: uppercase;
-      color: white;
       font-size: 20px;
-      margin-top: 15px;
-      @media (min-width: 768px) {
-        float: right;
-        clear: both;
+      height: 2em;
+      text-transform: uppercase;
+      .page-link {
+        color: #fff;
+        display: inline-block;
+        padding: .2em;
+      }
+      .site-nav_buy {
+        background-color: #ea5d34;
+        border-top: 2px dotted #3C3C3B;
+        height: 2.2em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
       }
     }
+
+  }
+
+}
+
+
+
+
+.wrapper-left {
+  float: left;
+  width: 50%;
+  @media (min-width: 768px) {
+    text-align: left;
+    width: 25%;
+  }
+}
+.wrapper-center {
+  clear: both;
+  padding-top: 1.5em;
+  text-align: center;
+  @media (min-width: 768px) {
+    clear: none;
+    float: left;
+    padding-top: 0;
+    width: 50%;
+  }
+}
+.wrapper-right {
+  float: right;
+  text-align: right;
+  width: 50%;
+  @media (min-width: 768px) {
+    width: 25%;
+  }
 }
