@@ -7,8 +7,9 @@
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+    @media (max-width: $on-palm) {
+      border-top-width: 3.5em;
+    }
 }
 
 .site-title {
@@ -44,7 +45,7 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 9px;
+        top: 7px;
         right: 30px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
@@ -52,11 +53,17 @@
         text-align: right;
 
         .menu-icon {
+            font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: $text-color;
+
             display: block;
             float: right;
-            width: 36px;
-            padding-top: 10px;
+            padding-bottom: .25em;
+            padding-top: .25em;
             text-align: center;
+            text-decoration: none;
 
             > svg {
                 width: 18px;
@@ -81,6 +88,7 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            text-transform: uppercase;
         }
     }
 }

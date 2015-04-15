@@ -5,8 +5,7 @@
 header {
   background: #ea5d34;
   .top-wrapper {
-    background: #ea5d34;
-    margin: 1.5em auto .5em;
+    margin: 0 auto .5em;
     overflow: hidden;
     padding: 0 4%;
     @media (min-width: 1024px) {
@@ -37,8 +36,11 @@ header {
     }
   }
 
-  @media (min-width: 600px) {
+  @media (min-width: $on-palm +1) {
 
+    .top-wrapper {
+      margin-top: 1.5em;
+    }
     .site-nav {
       background-color: #3C3C3B;
       clear: both;
