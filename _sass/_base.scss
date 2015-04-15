@@ -135,7 +135,13 @@ a {
         text-align: center;
     }
 }
-
+.twitter {
+    float: right;
+    font-size: 0.85em;
+    @include media-query($on-laptop) {
+        float: none;
+    }
+}
 
 
 
