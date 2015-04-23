@@ -2,14 +2,14 @@
 
   <div class="top-wrapper">
     <div class="wrapper-left">
-      <a class="site-title" href="/"><img src="/public/images/FrontendUnitedLogoDark.svg" onerror="this.onerror=null; this.src='FrontendUnitedLogoDark.png'" alt="{{ site.title }}"></a>
+      <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/public/images/FrontendUnitedLogoDark.svg" onerror="this.onerror=null; this.src='FrontendUnitedLogoDark.png'" alt="{{ site.title }}"></a>
     </div>
     <div class="wrapper-right">
-      <img class="slogan" src="/public/images/slogan.svg" onerror="this.onerror=null; this.src='slogan.png'" alt="Design. Code. Share">
+      <img class="slogan" src="{{ site.baseurl }}/public/images/slogan.svg" onerror="this.onerror=null; this.src='slogan.png'" alt="Design. Code. Share">
     </div>
 
     <div class="wrapper-center">
-      <a href="/" rel="home" class="site-logo"><img src="/public/images/Bristol.svg" onerror="this.onerror=null; this.src='Bristol.png'" alt="Bristol"></a>
+      <a href="{{ site.baseurl }}/" rel="home" class="site-logo"><img src="{{ site.baseurl }}/public/images/Bristol.svg" onerror="this.onerror=null; this.src='Bristol.png'" alt="Bristol"></a>
       <div class="event-dates">{{ site.dates }}</div>
     </div>
 
@@ -28,7 +28,7 @@
       <div class="trigger">
         {% for page in site.pages %}
           {% if page.title %}
-          <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
         <a href="https://ti.to/frontendunited/bristol-2015" class="page-link site-nav_buy" title="Buy your ticket today">Buy a ticket</a>
