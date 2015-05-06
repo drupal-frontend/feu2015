@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Location
-permalink: /bristol/
+<!-- title: Location -->
+<!-- permalink: /bristol/ -->
 ---
 
 {% include only-text-no-columns.html %}
