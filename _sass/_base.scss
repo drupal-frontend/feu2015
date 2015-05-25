@@ -39,7 +39,9 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+.strike {
+    text-decoration: line-through;
+}
 
 /**
  * Images
@@ -161,6 +163,9 @@ blockquote {
     }
 }
 
+.break {
+    text-transform: uppercase;
+}
 
 
 /**
@@ -190,6 +195,44 @@ pre {
 }
 
 
+article {
+    clear: both;
+    padding: 1em 2em;
+    overflow: auto;
+  &:nth-child(even) {
+    background-color: #e5e5e6;
+  }
+}
+
+table {
+    width: 100%;
+    margin-top: 2em;
+    border-spacing: 0;
+}
+
+tr {
+    &:nth-child(even) {
+        background-color: #e5e5e6;
+    }
+}
+
+td {
+    padding: 5px;
+    display: block;
+    @media (min-width: 768px) {
+        display: table-cell;
+    }
+    &.time {
+        width: 100%;
+         @media (min-width: 768px) {
+            width: 15%;
+        }
+    }
+}
+
+td a {
+    font-weight: bold;
+}
 
 /**
  * Wrapper
