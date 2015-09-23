@@ -1,0 +1,21 @@
+{
+  "name": "Frontend United",
+  "version": "0.0.1",
+  "authors": [
+    "Jannick Vandaele <jannickvandaele@hotmail.com>"
+  ],
+  "description": "Frontend United 2016 Ghent",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "lazy-line-painter": "camoconnell/lazy-line-painter#~1.7.0",
+    "vivus": "maxwellito/vivus#~0.2.3"
+  }
+}
