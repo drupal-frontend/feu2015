@@ -3,3 +3,8 @@ new Vivus('my-svg', {
     duration: 200,
     animTimingFunction: Vivus.EASE
 });
+
+
+setTimeout(function(){ 
+  $(".bg-img").fadeTo( "slow" , 1);
+ }, 2000);
