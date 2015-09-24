@@ -67,6 +67,8 @@ h2 {
 
 .content-container {
   padding: 0 20px; }
+  .content-container .response {
+    padding: 0 0 20px; }
 
 a {
   color: #ea5d34; }
@@ -253,7 +255,7 @@ textarea {
     background: transparent !important;
     color: #000 !important;
     /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+                                      http://www.sanbeiji.com/archives/953 */
     box-shadow: none !important;
     text-shadow: none !important; }
   a,
@@ -264,9 +266,9 @@ textarea {
   abbr[title]:after {
     content: " (" attr(title) ")"; }
   /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: ""; }
@@ -275,9 +277,9 @@ textarea {
     border: 1px solid #999;
     page-break-inside: avoid; }
   /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
+   * Printing Tables:
+   * http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
   thead {
     display: table-header-group; }
   tr,
