@@ -40,6 +40,7 @@ h2{
     right: 5px;
     top: 5px;
     width: 45%;
+    padding-bottom: 34.88063660%;
     @media (min-width: 500px){
         width: 30%;
         right: 20px;
@@ -47,7 +48,11 @@ h2{
     }
     svg{
         width: 100%;
-        height: auto;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
     }
 }
 
