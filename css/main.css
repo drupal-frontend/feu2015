@@ -27,6 +27,12 @@ html {
 
 h2 {
   font-weight: 300; }
+  @media (min-width: 500px) {
+    h2 {
+      font-size: 40px;
+      line-height: 1.25em;
+      max-width: 600px;
+      margin: 0 auto 30px auto; } }
 
 .logo {
   position: absolute;
@@ -66,6 +72,8 @@ h2 {
   left: 0; }
 
 .content-container {
+  position: relative;
+  margin-top: -17%;
   padding: 0 20px; }
   .content-container .response {
     padding: 0 0 20px; }
