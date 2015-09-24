@@ -9,20 +9,31 @@
    ========================================================================== */
 html {
   color: #fff;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
-  background-color: #032448; }
+  background-color: #032448;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; }
 
 #my-svg {
   width: 100%;
-  height: auto; }
+  height: auto;
+  opacity: 0; }
+
+h2 {
+  font-weight: 300; }
 
 .logo {
   position: absolute;
   z-index: 100;
-  right: 20px;
-  top: 20px;
-  width: 30%; }
+  right: 5px;
+  top: 5px;
+  width: 45%; }
+  @media (min-width: 500px) {
+    .logo {
+      width: 30%;
+      right: 20px;
+      top: 20px; } }
   .logo svg {
     width: 100%;
     height: auto; }
@@ -42,6 +53,43 @@ html {
   bottom: 0;
   right: 0;
   left: 0; }
+
+.content-container {
+  padding: 0 20px; }
+
+a {
+  color: #ea5d34; }
+
+input {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px; }
+  input:focus,
+  input:hover {
+    outline: none;
+    border: 2px solid white; }
+
+.addthis_toolbox {
+  text-align: center;
+  padding-top: 20px; }
+  .addthis_toolbox a {
+    float: none !important; }
+
+.addthis-smartlayers > p {
+  display: none; }
+
+input[type=submit] {
+  border: 2px solid #ea5d34;
+  text-transform: uppercase; }
+  input[type=submit]:hover {
+    background-color: #ea5d34; }
+
+label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5); }
 
 .bg-img {
   opacity: 0;
