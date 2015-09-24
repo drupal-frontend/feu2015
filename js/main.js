@@ -1,4 +1,5 @@
 $(window).load(function(){
+  $("#my-svg").css('opacity', '1');
   new Vivus('my-svg', {
     start: 'autostart',
     type: 'delayed',
