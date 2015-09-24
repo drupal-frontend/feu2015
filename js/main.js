@@ -1,10 +1,15 @@
-new Vivus('my-svg', {
+
+
+$(window).load(function(){
+  new Vivus('my-svg', {
     type: 'delayed',
-    duration: 100,
+    duration: 120,
     animTimingFunction: Vivus.EASE
+  });
+
+
+  setTimeout(function(){ 
+    $(".bg-img").fadeTo( "slow" , 1);
+   }, 3000);
+  
 });
-
-
-setTimeout(function(){ 
-  $(".bg-img").fadeTo( "slow" , 1);
- }, 2000);
