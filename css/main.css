@@ -56,6 +56,10 @@ h2 {
     right: 0;
     left: 0; }
 
+.logo--mobile img {
+  width: 95%;
+  padding: 0 0 20px; }
+
 @media (min-width: 500px) {
   .logo--mobile {
     display: none; } }
