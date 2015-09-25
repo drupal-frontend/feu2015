@@ -98,12 +98,6 @@ h2 {
   position: relative;
   margin-top: -17%;
   padding: 0 20px;
-  .response {
-    padding: 0 0 20px;
-    max-width: 600px;
-    text-align: center;
-    margin: 0 auto;
-  }
 }
 
 $orange: #ea5d34;
@@ -236,6 +230,28 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*
+ * Mailchimp related stuff
+ */
+
+.response {
+  padding: 0 0 20px;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  background: #6B0505;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 auto 1em auto!important;
+  max-width: 80%;
+  @media (min-width: 500px) {
+    max-width: 300px;
+  }
+}
 
 /* ==========================================================================
    Helper classes
