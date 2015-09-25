@@ -10,147 +10,150 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #fff;
-  font-size: 16px;
-  line-height: 1.4;
-  background-color: #032448;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-}
+   $orange: #ea5d34;
+   $red: #FC0647;
 
-#my-svg {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-}
-
-h2 {
-  font-weight: 300;
-  @media (min-width: 500px) {
-    font-size: 40px;
-    line-height: 1.25em;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
+   html {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.4;
+    background-color: #032448;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
   }
-}
 
-.logo {
-  position: absolute;
-  z-index: 100;
-  right: 5px;
-  top: 5px;
-  width: 45%;
-  padding-bottom: 34.88063660%;
-  display: none;
-  @media (min-width: 500px) {
-    display: block;
-    width: 30%;
-    right: 20px;
-    top: 20px;
-  }
-  img {
+  #my-svg {
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+  }
+
+  h2 {
+    font-weight: 300;
+    @media (min-width: 500px) {
+      font-size: 40px;
+      line-height: 1.25em;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+    }
+  }
+
+  .logo {
+    position: absolute;
+    z-index: 100;
+    right: 5px;
+    top: 5px;
+    width: 45%;
+    padding-bottom: 34.88063660%;
+    display: none;
+    @media (min-width: 500px) {
+      display: block;
+      width: 30%;
+      right: 20px;
+      top: 20px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+  }
+
+  .logo--mobile {
+    img {
+      width: 95%;
+      padding: 0 0 20px;
+    }
+    @media (min-width: 500px) {
+      display: none;
+    }
+  }
+
+  .img-container {
+    position: relative;
+    padding-bottom: 66%;
+  }
+
+  .svg-container {
+    padding-bottom: 55.821689953%;
+    position: relative;
+    top: -4px;
+  }
+
+  .img-container .inner,
+  .img-container .bg-img {
+    position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
   }
-}
 
-.logo--mobile {
-  img {
-    width: 95%;
-    padding: 0 0 20px;
+  .content-container {
+    position: relative;
+    margin-top: -17%;
+    padding: 0 20px;
   }
-  @media (min-width: 500px) {
+
+
+
+  a {
+    color: $orange;
+  }
+
+  input {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    &:focus,
+    &:hover {
+      outline: none;
+      border: 2px solid white;
+    }
+  }
+
+  .addthis_toolbox {
+    text-align: center;
+    padding-top: 20px;
+    a {
+      float: none !important;
+    }
+  }
+
+  .addthis-smartlayers > p {
+
     display: none;
   }
-}
 
-.img-container {
-  position: relative;
-  padding-bottom: 66%;
-}
-
-.svg-container {
-  padding-bottom: 55.821689953%;
-  position: relative;
-  top: -4px;
-}
-
-.img-container .inner,
-.img-container .bg-img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
-.content-container {
-  position: relative;
-  margin-top: -17%;
-  padding: 0 20px;
-}
-
-$orange: #ea5d34;
-
-a {
-  color: $orange;
-}
-
-input {
-  background-color: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.8);
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 20px;
-  &:focus,
-  &:hover {
-    outline: none;
-    border: 2px solid white;
+  input[type=submit] {
+    border: 2px solid $orange;
+    text-transform: uppercase;
+    &:hover {
+      background-color: $orange;
+    }
   }
-}
 
-.addthis_toolbox {
-  text-align: center;
-  padding-top: 20px;
-  a {
-    float: none !important;
+  label {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
   }
-}
 
-.addthis-smartlayers > p {
-
-  display: none;
-}
-
-input[type=submit] {
-  border: 2px solid $orange;
-  text-transform: uppercase;
-  &:hover {
-    background-color: $orange;
+  .bg-img {
+    opacity: 0;
+    background: url('../img/bg.jpg') center center no-repeat;
+    background-size: cover;
   }
-}
-
-label {
-  font-size: 12px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.bg-img {
-  opacity: 0;
-  background: url('../img/bg.jpg') center center no-repeat;
-  background-size: cover;
-}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -160,7 +163,7 @@ label {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
+ ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
@@ -174,7 +177,7 @@ label {
  * A better looking default horizontal rule
  */
 
-hr {
+ hr {
   display: block;
   height: 1px;
   border: 0;
@@ -189,12 +192,12 @@ hr {
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+ audio,
+ canvas,
+ iframe,
+ img,
+ svg,
+ video {
   vertical-align: middle;
 }
 
@@ -202,7 +205,7 @@ video {
  * Remove default fieldset styles.
  */
 
-fieldset {
+ fieldset {
   border: 0;
   margin: 0;
   padding: 0;
@@ -212,7 +215,7 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
+ textarea {
   resize: vertical;
 }
 
@@ -220,12 +223,12 @@ textarea {
    Browser Upgrade Prompt
    ========================================================================== */
 
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+   .browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+  }
 
 /* ==========================================================================
    Author's custom styles
@@ -234,22 +237,31 @@ textarea {
  * Mailchimp related stuff
  */
 
-.response {
+ .response {
   padding: 0 0 20px;
   max-width: 600px;
   text-align: center;
   margin: 0 auto;
 }
 
-#mc_embed_signup div.mce_inline_error {
-  border: 2px solid rgba(255, 255, 255, 0.8);
-  background: #6B0505;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 0 auto 1em auto!important;
-  max-width: 80%;
-  @media (min-width: 500px) {
-    max-width: 300px;
+#mc_embed_signup {
+  div.mce_inline_error {
+    background: transparent !important;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: $red !important;
+    font-size: 12px;
+    padding: 0;
+    margin: 0 auto 1em auto!important;
+    max-width: 80%;
+    @media (min-width: 500px) {
+      max-width: 300px;
+    }
+  }
+
+  input.mce_inline_error{
+    margin-bottom: 0;
+    border:2px solid $red !important;
   }
 }
 
@@ -261,7 +273,7 @@ textarea {
  * Hide visually and from screen readers:
  */
 
-.hidden {
+ .hidden {
   display: none !important;
 }
 
@@ -270,7 +282,7 @@ textarea {
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 
-.visuallyhidden {
+ .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -287,8 +299,8 @@ textarea {
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+ .visuallyhidden.focusable:active,
+ .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
@@ -301,7 +313,7 @@ textarea {
  * Hide visually and from screen readers, but maintain layout
  */
 
-.invisible {
+ .invisible {
   visibility: hidden;
 }
 
@@ -317,8 +329,8 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
+ .clearfix:before,
+ .clearfix:after {
   content: " "; /* 1 */
   display: table; /* 2 */
 }
@@ -333,16 +345,16 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+   @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+  }
 
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+  @media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+  }
 
 /* ==========================================================================
    Print styles.
@@ -350,14 +362,14 @@ textarea {
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
+   @media print {
+    *,
+    *:before,
+    *:after {
+      background: transparent !important;
+      color: #000 !important;
     /* Black prints faster:
-                                      http://www.sanbeiji.com/archives/953 */
+    http://www.sanbeiji.com/archives/953 */
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -380,8 +392,8 @@ textarea {
    * or use the `javascript:` pseudo protocol
    */
 
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
+   a[href^="#"]:after,
+   a[href^="javascript:"]:after {
     content: "";
   }
 
@@ -396,7 +408,7 @@ textarea {
    * http://css-discuss.incutio.com/wiki/Printing_Tables
    */
 
-  thead {
+   thead {
     display: table-header-group;
   }
 

@@ -200,15 +200,21 @@ textarea {
   margin: 0 auto; }
 
 #mc_embed_signup div.mce_inline_error {
-  border: 2px solid rgba(255, 255, 255, 0.8);
-  background: #6B0505;
-  border-radius: 5px;
-  padding: 10px;
+  background: transparent !important;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #FC0647 !important;
+  font-size: 12px;
+  padding: 0;
   margin: 0 auto 1em auto !important;
   max-width: 80%; }
   @media (min-width: 500px) {
     #mc_embed_signup div.mce_inline_error {
       max-width: 300px; } }
+
+#mc_embed_signup input.mce_inline_error {
+  margin-bottom: 0;
+  border: 2px solid #FC0647 !important; }
 
 /* ==========================================================================
    Helper classes
@@ -291,7 +297,7 @@ textarea {
     background: transparent !important;
     color: #000 !important;
     /* Black prints faster:
-                                      http://www.sanbeiji.com/archives/953 */
+    http://www.sanbeiji.com/archives/953 */
     box-shadow: none !important;
     text-shadow: none !important; }
   a,
