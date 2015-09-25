@@ -40,19 +40,25 @@ h2 {
   right: 5px;
   top: 5px;
   width: 45%;
-  padding-bottom: 34.88063660%; }
+  padding-bottom: 34.88063660%;
+  display: none; }
   @media (min-width: 500px) {
     .logo {
+      display: block;
       width: 30%;
       right: 20px;
       top: 20px; } }
-  .logo svg {
+  .logo img {
     width: 100%;
     height: 100%;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0; }
+
+@media (min-width: 500px) {
+  .logo--mobile {
+    display: none; } }
 
 .img-container {
   position: relative;
@@ -76,7 +82,10 @@ h2 {
   margin-top: -17%;
   padding: 0 20px; }
   .content-container .response {
-    padding: 0 0 20px; }
+    padding: 0 0 20px;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto; }
 
 a {
   color: #ea5d34; }
