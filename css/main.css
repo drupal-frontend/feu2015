@@ -76,7 +76,10 @@ h2 {
   margin-top: -17%;
   padding: 0 20px; }
   .content-container .response {
-    padding: 0 0 20px; }
+    padding: 0 0 20px;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto; }
 
 a {
   color: #ea5d34; }
