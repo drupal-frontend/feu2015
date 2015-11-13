@@ -355,8 +355,29 @@ td,
 th {
   padding: 0; }
 
+.charizard {
+  background: #293a3c; }
+
 .blastoise {
-  background: #eef3f2; }
+  background: #eef3f2;
+  text-align: center; }
+
+.blastoise__wartortle {
+  display: inline-block; }
+
+.blastoise__wartortle a {
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #293a3c;
+  display: block; }
+
+.blastoise__wartortle h4 {
+  text-transform: none;
+  margin: 0px; }
+
+.addthis_horizontal_follow_toolbox p {
+  display: none; }
 
 .hide {
   display: none; }
