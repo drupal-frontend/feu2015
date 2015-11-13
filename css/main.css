@@ -354,3 +354,15 @@ table {
 td,
 th {
   padding: 0; }
+
+.venusaur {
+  height: 100vh;
+  background-color: #eef3f2; }
+
+.ivysaur {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+  height: 1000px;
+  background: url(../img/lights.svg) center top no-repeat; }
