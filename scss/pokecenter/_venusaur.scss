@@ -1,13 +1,26 @@
 .venusaur{
   height: 100vh;
   background-color: $lightblue;
+  padding-top: 280px;
 }
 
 .ivysaur{
   position: absolute;
+  z-index: 1;
   left: 0;
   right: 0;
   top: 20px;
-  height: 1000px;
+  height: 400px;
   background: url(../img/lights.svg) center top no-repeat;
+}
+
+.logo{
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 600px;
+  margin: auto;
+  img{
+    width: 100%;
+  }
 }
