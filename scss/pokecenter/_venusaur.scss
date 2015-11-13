@@ -1,0 +1,13 @@
+.venusaur{
+  height: 100vh;
+  background-color: $lightblue;
+}
+
+.ivysaur{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+  height: 1000px;
+  background: url(../img/lights.svg) center top no-repeat;
+}
