@@ -368,7 +368,20 @@ th {
   background: url(../img/lights.svg) center top no-repeat; }
 
 .charizard {
+  color: #fff;
   background: #293a3c; }
+
+.mailchimp {
+  max-width: 400px;
+  margin: 0 auto; }
+  .mailchimp h2 {
+    margin: 0; }
+  .mailchimp input {
+    float: left; }
+  .mailchimp:after {
+    content: " ";
+    display: table;
+    clear: both; }
 
 .blastoise {
   background: #eef3f2;
@@ -396,3 +409,13 @@ th {
 
 .hide {
   display: none; }
+
+input {
+  border: none;
+  background: #eef3f2;
+  color: #293a3c; }
+
+.button {
+  border: none;
+  color: #fff;
+  background: #e94d27; }
