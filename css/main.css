@@ -378,11 +378,72 @@ th {
   .logo img {
     width: 100%; }
 
-.blastoise {
-  background: #eef3f2; }
+.charizard {
+  padding: 100px 0;
+  color: #fff;
+  background: #293a3c; }
 
-.hide {
+.mailchimp {
+  max-width: 500px;
+  margin: 0 auto; }
+  .mailchimp h2 {
+    margin: 0; }
+  .mailchimp input {
+    width: 70%;
+    float: left; }
+  .mailchimp .button {
+    width: 30%; }
+  .mailchimp div.mce_inline_error {
+    float: left;
+    width: 100%;
+    margin: 5px 0px !important;
+    background: none !important;
+    padding: 0px !important;
+    color: #e94d27 !important; }
+  .mailchimp:after {
+    content: " ";
+    display: table;
+    clear: both; }
+
+.blastoise {
+  padding: 60px 0;
+  background: #eef3f2;
+  text-align: center; }
+
+.blastoise__wartortle {
+  display: inline-block;
+  margin: 0 20px; }
+
+.blastoise__wartortle a {
+  color: #293a3c;
+  display: block;
+  font-size: 15px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.blastoise__wartortle h4 {
+  font-size: 25px;
+  text-transform: none;
+  margin: 0px; }
+
+.addthis_horizontal_follow_toolbox p {
   display: none; }
 
 * {
   box-sizing: border-box; }
+
+.hide {
+  display: none; }
+
+input {
+  padding: 15px;
+  border: none;
+  background: #eef3f2;
+  color: #293a3c; }
+
+.button {
+  padding: 15px;
+  border: none;
+  color: #fff;
+  background: #e94d27; }

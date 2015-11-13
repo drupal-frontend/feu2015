@@ -5,10 +5,24 @@
 @import "pokecenter/charizard";
 @import "pokecenter/blastoise";
 
+* {
+  box-sizing: border-box;
+}
+
 .hide {
   display: none;
 }
 
-* {
-  box-sizing: border-box;
+input {
+  padding: 15px;
+  border: none;
+  background: $lightblue;
+  color: $darkblue
+}
+
+.button {
+  padding: 15px;
+  border: none;
+  color: $white;
+  background: $orange;
 }
