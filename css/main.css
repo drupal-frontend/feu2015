@@ -368,6 +368,7 @@ th {
   background: url(../img/lights.svg) center top no-repeat; }
 
 .charizard {
+  padding: 100px 0;
   color: #fff;
   background: #293a3c; }
 
@@ -378,12 +379,18 @@ th {
     margin: 0; }
   .mailchimp input {
     float: left; }
+  .mailchimp div.mce_inline_error {
+    margin: 5px 0px !important;
+    background: none !important;
+    padding: 0px !important;
+    color: #e94d27 !important; }
   .mailchimp:after {
     content: " ";
     display: table;
     clear: both; }
 
 .blastoise {
+  padding: 60px 0;
   background: #eef3f2;
   text-align: center; }
 
@@ -411,11 +418,13 @@ th {
   display: none; }
 
 input {
+  padding: 10px;
   border: none;
   background: #eef3f2;
   color: #293a3c; }
 
 .button {
+  padding: 10px;
   border: none;
   color: #fff;
   background: #e94d27; }

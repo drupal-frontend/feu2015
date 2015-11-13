@@ -7,13 +7,5 @@ function mytiming(frame){
 }
 
 $(window).load(function(){
-  $("#my-svg").css('opacity', '1');
-  new Vivus('my-svg', {
-    start: 'autostart',
-    type: 'delayed',
-    duration: 120,
-    animTimingFunction: mytiming
-  }, function(){
-    $(".svg-container").fadeTo( "slow" , 0);
-  });
+
 });
