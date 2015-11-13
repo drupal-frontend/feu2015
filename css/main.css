@@ -354,3 +354,9 @@ table {
 td,
 th {
   padding: 0; }
+
+.blastoise {
+  background: #eef3f2; }
+
+.hide {
+  display: none; }
