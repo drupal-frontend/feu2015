@@ -5,6 +5,10 @@
 @import "pokecenter/charizard";
 @import "pokecenter/blastoise";
 
+* {
+  box-sizing: border-box;
+}
+
 .hide {
   display: none;
 }
@@ -13,14 +17,14 @@
 
 
 input {
-  padding: 10px;
+  padding: 15px;
   border: none;
   background: $lightblue;
   color: $darkblue
 }
 
 .button {
-  padding: 10px;
+  padding: 15px;
   border: none;
   color: $white;
   background: $orange;

@@ -7,15 +7,21 @@
 
 
 .mailchimp {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   h2 {
     margin: 0;
   }
   input {
+    width: 70%;
     float: left;
   }
+  .button {
+    width: 30%;
+  }
   div.mce_inline_error {
+    float: left;
+    width: 100%;
     margin: 5px 0px!important;
     background: none!important;
     padding: 0px!important;
