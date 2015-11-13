@@ -366,3 +366,9 @@ th {
   top: 20px;
   height: 1000px;
   background: url(../img/lights.svg) center top no-repeat; }
+
+.blastoise {
+  background: #eef3f2; }
+
+.hide {
+  display: none; }
