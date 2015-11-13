@@ -375,18 +375,19 @@ th {
   text-align: center; }
 
 .blastoise__wartortle {
-  display: inline-block; }
+  display: inline-block;
+  margin: 0 20px; }
 
 .blastoise__wartortle a {
   color: #293a3c;
   display: block;
-  font-size: 29px;
+  font-size: 15px;
   text-align: left;
   text-transform: uppercase;
   text-decoration: none; }
 
 .blastoise__wartortle h4 {
-  font-size: 38px;
+  font-size: 25px;
   text-transform: none;
   margin: 0px; }
 
