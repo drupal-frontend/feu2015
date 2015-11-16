@@ -20,9 +20,15 @@ input {
   background: $lightblue;
   color: $darkblue;
   border: 1px solid $lightblue;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
   &:focus {
+    background: $beige;
+    border: 1px solid $beige;
     outline: none;
-    border: 1px solid $orange;
   }
 }
 
@@ -32,6 +38,7 @@ input {
   background: $orange;
   &:focus {
     outline: none;
+    background: $orange;
     border: 1px solid $orange;
   }
 }

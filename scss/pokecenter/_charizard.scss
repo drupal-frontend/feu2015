@@ -22,6 +22,7 @@
     width: 30%;
   }
   div.mce_inline_error {
+    font-family: 'DuplaLight-Light';
     float: left;
     width: 100%;
     margin: 5px 0px!important;
@@ -34,4 +35,8 @@
     display: table;
     clear: both;
   }
+}
+
+#mc_embed_signup input.mce_inline_error {
+  border: 1px solid $orange;
 }
