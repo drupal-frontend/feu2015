@@ -17,14 +17,21 @@
 
 input {
   padding: 15px;
-  border: none;
   background: $lightblue;
-  color: $darkblue
+  color: $darkblue;
+  border: 1px solid $lightblue;
+  &:focus {
+    outline: none;
+    border: 1px solid $orange;
+  }
 }
 
 .button {
-  padding: 15px;
-  border: none;
+  border: 1px solid $orange;
   color: $white;
   background: $orange;
+  &:focus {
+    outline: none;
+    border: 1px solid $orange;
+  }
 }

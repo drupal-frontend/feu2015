@@ -1,5 +1,5 @@
 .charizard {
-  padding: 100px 0;
+  padding: 100px 0 110px;
   color: $white;
   background: $darkblue;
 }
@@ -10,7 +10,9 @@
   max-width: 500px;
   margin: 0 auto;
   h2 {
-    margin: 0;
+    font-family: 'Dupla-Bold';
+    font-size: 35px;
+    margin: 0 0 10px 0;
   }
   input {
     width: 70%;

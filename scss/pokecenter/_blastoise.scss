@@ -6,13 +6,17 @@
 
 .blastoise__wartortle {
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 40px;
+  .addthis_horizontal_follow_toolbox {
+    position: relative;
+    top: 5px
+  }
 }
 
 .blastoise__wartortle a {
   color: $darkblue;
   display: block;
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'DuplaLight-Light';
   text-align: left;
   text-transform: uppercase;
@@ -20,7 +24,7 @@
 }
 
 .blastoise__wartortle h4 {
-  font-size: 25px;
+  font-size: 19px;
   font-family: 'Dupla-Bold';
   text-transform: none;
   margin: 0px;

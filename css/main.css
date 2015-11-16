@@ -527,7 +527,7 @@ th {
     width: 100%; }
 
 .charizard {
-  padding: 100px 0;
+  padding: 100px 0 110px;
   color: #fff;
   background: #293a3c; }
 
@@ -535,7 +535,9 @@ th {
   max-width: 500px;
   margin: 0 auto; }
   .mailchimp h2 {
-    margin: 0; }
+    font-family: 'Dupla-Bold';
+    font-size: 35px;
+    margin: 0 0 10px 0; }
   .mailchimp input {
     width: 70%;
     float: left; }
@@ -560,19 +562,22 @@ th {
 
 .blastoise__wartortle {
   display: inline-block;
-  margin: 0 20px; }
+  margin: 0 40px; }
+  .blastoise__wartortle .addthis_horizontal_follow_toolbox {
+    position: relative;
+    top: 5px; }
 
 .blastoise__wartortle a {
   color: #293a3c;
   display: block;
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'DuplaLight-Light';
   text-align: left;
   text-transform: uppercase;
   text-decoration: none; }
 
 .blastoise__wartortle h4 {
-  font-size: 25px;
+  font-size: 19px;
   font-family: 'Dupla-Bold';
   text-transform: none;
   margin: 0px; }
@@ -589,12 +594,17 @@ th {
 
 input {
   padding: 15px;
-  border: none;
   background: #eef3f2;
-  color: #293a3c; }
+  color: #293a3c;
+  border: 1px solid #eef3f2; }
+  input:focus {
+    outline: none;
+    border: 1px solid #e94d27; }
 
 .button {
-  padding: 15px;
-  border: none;
+  border: 1px solid #e94d27;
   color: #fff;
   background: #e94d27; }
+  .button:focus {
+    outline: none;
+    border: 1px solid #e94d27; }
