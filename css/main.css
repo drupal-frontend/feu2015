@@ -557,7 +557,7 @@ th {
     clear: both; }
 
 #mc_embed_signup input.mce_inline_error {
-  border: 1px solid #e94d27; }
+  border: 1px solid #e94d27 !important; }
 
 .blastoise {
   padding: 60px 0;
