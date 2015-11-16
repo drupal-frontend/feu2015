@@ -1,9 +1,11 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url("//hello.myfonts.net/count/2fb35d");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -355,6 +357,152 @@ td,
 th {
   padding: 0; }
 
+/**
+ * @license
+ * MyFonts Webfont Build ID 3126109, 2015-11-16T07:16:35-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: DuplaThin-ThinItalic by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/thin-italic/
+ *
+ * Webfont: Dupla-Bold by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/bold/
+ *
+ * Webfont: DuplaBlack-Black by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/black/
+ *
+ * Webfont: DuplaHeavy-HeavyItalic by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/heavy-italic/
+ *
+ * Webfont: DuplaBlack-BlackItalic by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/black-italic/
+ *
+ * Webfont: Dupla-BoldItalic by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/bold-italic/
+ *
+ * Webfont: DuplaDemibold-DemiBold by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/demi-bold/
+ *
+ * Webfont: DuplaDemibold-DemiBoldItalic by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/demi-bold-italic/
+ *
+ * Webfont: DuplaBook-BookItalic by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/book-italic/
+ *
+ * Webfont: DuplaBook-Book by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/book/
+ *
+ * Webfont: DuplaHeavy-Heavy by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/heavy/
+ *
+ * Webfont: DuplaLight-Light by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/light/
+ *
+ * Webfont: DuplaLight-LightItalic by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/light-italic/
+ *
+ * Webfont: Dupla-Italic by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/italic/
+ *
+ * Webfont: Dupla by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/regular/
+ *
+ * Webfont: DuplaThin-Thin by Tipo Pèpel
+ * URL: http://www.myfonts.com/fonts/tipo-pepel/dupla/thin/
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3126109
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright (c) 2014 by Josep Patau Bellart. All rights reserved.
+ *
+ * © 2015 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'DuplaThin-ThinItalic';
+  src: url("webfonts/2FB35D_0_0.eot");
+  src: url("webfonts/2FB35D_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_0_0.woff2") format("woff2"), url("webfonts/2FB35D_0_0.woff") format("woff"), url("webfonts/2FB35D_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Dupla-Bold';
+  src: url("webfonts/2FB35D_1_0.eot");
+  src: url("webfonts/2FB35D_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_1_0.woff2") format("woff2"), url("webfonts/2FB35D_1_0.woff") format("woff"), url("webfonts/2FB35D_1_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaBlack-Black';
+  src: url("webfonts/2FB35D_2_0.eot");
+  src: url("webfonts/2FB35D_2_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_2_0.woff2") format("woff2"), url("webfonts/2FB35D_2_0.woff") format("woff"), url("webfonts/2FB35D_2_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaHeavy-HeavyItalic';
+  src: url("webfonts/2FB35D_3_0.eot");
+  src: url("webfonts/2FB35D_3_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_3_0.woff2") format("woff2"), url("webfonts/2FB35D_3_0.woff") format("woff"), url("webfonts/2FB35D_3_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaBlack-BlackItalic';
+  src: url("webfonts/2FB35D_4_0.eot");
+  src: url("webfonts/2FB35D_4_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_4_0.woff2") format("woff2"), url("webfonts/2FB35D_4_0.woff") format("woff"), url("webfonts/2FB35D_4_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Dupla-BoldItalic';
+  src: url("webfonts/2FB35D_5_0.eot");
+  src: url("webfonts/2FB35D_5_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_5_0.woff2") format("woff2"), url("webfonts/2FB35D_5_0.woff") format("woff"), url("webfonts/2FB35D_5_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaDemibold-DemiBold';
+  src: url("webfonts/2FB35D_6_0.eot");
+  src: url("webfonts/2FB35D_6_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_6_0.woff2") format("woff2"), url("webfonts/2FB35D_6_0.woff") format("woff"), url("webfonts/2FB35D_6_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaDemibold-DemiBoldItalic';
+  src: url("webfonts/2FB35D_7_0.eot");
+  src: url("webfonts/2FB35D_7_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_7_0.woff2") format("woff2"), url("webfonts/2FB35D_7_0.woff") format("woff"), url("webfonts/2FB35D_7_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaBook-BookItalic';
+  src: url("webfonts/2FB35D_8_0.eot");
+  src: url("webfonts/2FB35D_8_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_8_0.woff2") format("woff2"), url("webfonts/2FB35D_8_0.woff") format("woff"), url("webfonts/2FB35D_8_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaBook-Book';
+  src: url("webfonts/2FB35D_9_0.eot");
+  src: url("webfonts/2FB35D_9_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_9_0.woff2") format("woff2"), url("webfonts/2FB35D_9_0.woff") format("woff"), url("webfonts/2FB35D_9_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaHeavy-Heavy';
+  src: url("webfonts/2FB35D_A_0.eot");
+  src: url("webfonts/2FB35D_A_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_A_0.woff2") format("woff2"), url("webfonts/2FB35D_A_0.woff") format("woff"), url("webfonts/2FB35D_A_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaLight-Light';
+  src: url("webfonts/2FB35D_B_0.eot");
+  src: url("webfonts/2FB35D_B_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_B_0.woff2") format("woff2"), url("webfonts/2FB35D_B_0.woff") format("woff"), url("webfonts/2FB35D_B_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaLight-LightItalic';
+  src: url("webfonts/2FB35D_C_0.eot");
+  src: url("webfonts/2FB35D_C_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_C_0.woff2") format("woff2"), url("webfonts/2FB35D_C_0.woff") format("woff"), url("webfonts/2FB35D_C_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Dupla-Italic';
+  src: url("webfonts/2FB35D_D_0.eot");
+  src: url("webfonts/2FB35D_D_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_D_0.woff2") format("woff2"), url("webfonts/2FB35D_D_0.woff") format("woff"), url("webfonts/2FB35D_D_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Dupla';
+  src: url("webfonts/2FB35D_E_0.eot");
+  src: url("webfonts/2FB35D_E_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_E_0.woff2") format("woff2"), url("webfonts/2FB35D_E_0.woff") format("woff"), url("webfonts/2FB35D_E_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'DuplaThin-Thin';
+  src: url("webfonts/2FB35D_F_0.eot");
+  src: url("webfonts/2FB35D_F_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_F_0.woff2") format("woff2"), url("webfonts/2FB35D_F_0.woff") format("woff"), url("webfonts/2FB35D_F_0.ttf") format("truetype"); }
+
 .venusaur {
   height: 100vh;
   background-color: #eef3f2;
@@ -418,12 +566,14 @@ th {
   color: #293a3c;
   display: block;
   font-size: 15px;
+  font-family: 'DuplaLight-Light';
   text-align: left;
   text-transform: uppercase;
   text-decoration: none; }
 
 .blastoise__wartortle h4 {
   font-size: 25px;
+  font-family: 'Dupla-Bold';
   text-transform: none;
   margin: 0px; }
 
@@ -431,7 +581,8 @@ th {
   display: none; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; }
 
 .hide {
   display: none; }
