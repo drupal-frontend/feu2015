@@ -505,20 +505,23 @@ th {
   src: url("webfonts/2FB35D_F_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_F_0.woff2") format("woff2"), url("webfonts/2FB35D_F_0.woff") format("woff"), url("webfonts/2FB35D_F_0.ttf") format("truetype"); }
 
 .venusaur {
-  height: 400px;
   background-color: #eef3f2;
   text-align: center;
   position: relative;
-  padding-top: 50px;
-  border-bottom: 20px solid #e9e4cf; }
-  @media (min-width: 461px) {
+  padding-top: 75px;
+  border-bottom: 20px solid #e9e4cf;
+  height: 250px; }
+  @media (min-width: 768px) {
+    .venusaur {
+      height: 400px;
+      padding-top: 100px;
+      border-bottom: 70px solid #e9e4cf; } }
+  @media (min-width: 768px) {
     .venusaur {
       height: 600px; } }
   @media (min-width: 1025px) {
     .venusaur {
-      height: 920px; } }
-  @media (min-width: 461px) {
-    .venusaur {
+      height: 920px;
       padding-top: 200px;
       border-bottom: 130px solid #e9e4cf; } }
 
@@ -531,7 +534,7 @@ th {
   height: 176px;
   background: url(../img/lights.svg) center top no-repeat;
   background-size: 2570.6px 175.7px; }
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     .ivysaur {
       height: 352px;
       top: 10px;
@@ -541,10 +544,16 @@ th {
   position: relative;
   z-index: 2;
   display: block;
-  width: 80%;
-  max-width: 800px;
-  margin: 0 15% 0 5%; }
-  @media (min-width: 769px) {
+  width: 90%;
+  margin: auto; }
+  @media (min-width: 461px) {
+    .logo {
+      width: 60%;
+      margin: 0 15% 0 5%; } }
+  @media (min-width: 1025px) {
+    .logo {
+      width: 800px; } }
+  @media (min-width: 768px) {
     .logo {
       margin: auto; } }
   .logo img {
@@ -568,9 +577,12 @@ th {
   position: absolute;
   bottom: 0px;
   width: 200px; }
-  @media (min-width: 769px) {
+  @media (min-width: 768px) {
     .building--stadshal {
       display: block;
+      left: 2%; } }
+  @media (min-width: 1025px) {
+    .building--stadshal {
       left: 15%; } }
 
 .building--blaarmeersen {
@@ -588,7 +600,7 @@ th {
   position: absolute;
   bottom: -2px;
   width: 200px; }
-  @media (min-width: 1025px) {
+  @media (min-width: 768px) {
     .building--dullegriet {
       display: block;
       right: 30%; } }
@@ -597,12 +609,22 @@ th {
       right: 25%; } }
 
 .building--belfort {
-  right: 0%;
+  opacity: 0.7;
+  right: -2%;
   position: absolute;
-  width: 250px;
-  max-width: 25%;
-  max-height: 60vh;
+  width: 130px;
   bottom: 0px; }
+  @media (min-width: 461px) {
+    .building--belfort {
+      opacity: 1;
+      right: 2%; } }
+  @media (min-width: 768px) {
+    .building--belfort {
+      right: 0%;
+      width: 200px; } }
+  @media (min-width: 1025px) {
+    .building--belfort {
+      width: 250px; } }
 
 .charizard {
   padding: 100px 0 110px;
