@@ -239,8 +239,7 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
+html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -605,15 +604,18 @@ th {
   bottom: 0px; }
 
 .charizard {
-  padding: 100px 0 110px;
+  padding: 50px 0 60px;
   color: #fff;
   background: #293a3c; }
+  @media screen and (min-width: 635px) {
+    .charizard {
+      padding: 100px 0 110px; } }
 
 .mailchimp {
   max-width: 500px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 10px; }
+  padding: 0 25px; }
   .mailchimp h2 {
     font-family: 'Dupla-Bold';
     font-size: 25px;
