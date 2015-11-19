@@ -563,72 +563,72 @@ th {
   .logo img {
     width: 100%; }
 
-.buildings {
+.pallet-town {
   height: 614px;
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0; }
 
-.buildings__container {
+.pallet-town__container {
   position: relative;
   overflow: hidden;
   max-width: 1500px;
   margin: 0 auto;
   height: 614px; }
 
-.building--stadshal {
+.building--gym {
   display: none;
   position: absolute;
   bottom: 0px;
   width: 200px; }
   @media (min-width: 768px) {
-    .building--stadshal {
+    .building--gym {
       display: block;
       left: 2%; } }
   @media (min-width: 1025px) {
-    .building--stadshal {
+    .building--gym {
       left: 15%; } }
 
-.building--blaarmeersen {
+.building--pokecenter {
   left: 35%;
   position: absolute;
   bottom: -68px;
   width: 200px;
   display: none; }
   @media (min-width: 1400px) {
-    .building--blaarmeersen {
+    .building--pokecenter {
       display: block; } }
 
-.building--dullegriet {
+.building--bikeshop {
   display: none;
   position: absolute;
   bottom: -2px;
   width: 200px; }
   @media (min-width: 768px) {
-    .building--dullegriet {
+    .building--bikeshop {
       display: block;
       right: 30%; } }
   @media (min-width: 1400px) {
-    .building--dullegriet {
+    .building--bikeshop {
       right: 25%; } }
 
-.building--belfort {
+.building--teamrockethq {
   opacity: 0.7;
   right: -2%;
   position: absolute;
   width: 130px;
   bottom: 0px; }
   @media (min-width: 461px) {
-    .building--belfort {
+    .building--teamrockethq {
       opacity: 1;
       right: 2%; } }
   @media (min-width: 768px) {
-    .building--belfort {
+    .building--teamrockethq {
       right: 0%;
       width: 200px; } }
   @media (min-width: 1025px) {
-    .building--belfort {
+    .building--teamrockethq {
       width: 250px; } }
 
 .charizard {
