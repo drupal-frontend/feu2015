@@ -1,6 +1,7 @@
 .venusaur{
   background-color: $lightblue;
   text-align: center;
+  overflow: hidden;
   position: relative;
   padding-top: 80px;
   border-bottom: 20px solid $beige;
@@ -9,6 +10,7 @@
     padding-top: 70px;
   }
   @media (min-width: $bp2){
+    overflow: visible;
     height: 400px;
     padding-top: 100px;
     border-bottom: 70px solid $beige;
@@ -21,9 +23,6 @@
     padding-top: 200px;
     border-bottom: 130px solid $beige;
   }
-
-
-
 }
 
 .ivysaur{
@@ -75,7 +74,6 @@
 
 .buildings__container{
   position: relative;
-  overflow: hidden;
   max-width: 1500px;
   margin: 0 auto;
   height: 614px;
