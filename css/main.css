@@ -658,6 +658,7 @@ th {
       .mailchimp h2 {
         font-size: 35px; } }
   .mailchimp input {
+    -webkit-appearance: none;
     width: 100%; }
     @media screen and (min-width: 461px) {
       .mailchimp input {
