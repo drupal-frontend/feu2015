@@ -506,7 +506,8 @@ th {
 .venusaur {
   height: 100vh;
   background-color: #eef3f2;
-  padding-top: 280px; }
+  padding-top: 280px;
+  border-bottom: 130px solid #e9e4cf; }
 
 .ivysaur {
   position: absolute;
