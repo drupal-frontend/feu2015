@@ -1,12 +1,15 @@
 .blastoise {
-  padding: 60px 0;
+  padding: 50px 0 30px 0;
+  @media screen and (min-width: 635px) {
+    padding: 60px 0;
+  }
   background: $lightblue;
   text-align: center;
 }
 
 .blastoise__wartortle {
   margin: 0 0 20px 0;
-  @media screen and (min-width: 620px) {
+  @media screen and (min-width: 635px) {
     display: inline-block;
     margin: 0 20px;
   }
@@ -27,7 +30,7 @@
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  @media screen and (min-width: 620px) {
+  @media screen and (min-width: 635px) {
     text-align: left;
   }
 }
@@ -41,9 +44,9 @@
 
 .addthis_horizontal_follow_toolbox {
   a {
-    float: none;
-    @media screen and (min-width: 620px) {
-      float: left;
+    float: none!important;
+    @media screen and (min-width: 635px) {
+      float: left!important;
     }
   }
   p {
