@@ -646,6 +646,7 @@ th {
   padding: 0 25px; }
   .mailchimp h2 {
     font-family: 'Dupla-Bold';
+    font-weight: normal;
     font-size: 23px;
     margin: 0 0 10px 0;
     text-align: center; }
@@ -719,6 +720,7 @@ th {
 .blastoise__wartortle h4 {
   font-size: 19px;
   font-family: 'Dupla-Bold';
+  font-weight: normal;
   text-transform: none;
   margin: 0px; }
 
