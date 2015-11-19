@@ -2,10 +2,12 @@
   background-color: $lightblue;
   text-align: center;
   position: relative;
-  padding-top: 75px;
+  padding-top: 80px;
   border-bottom: 20px solid $beige;
   height: 250px;
-
+  @media (min-width: $bp1){
+    padding-top: 70px;
+  }
   @media (min-width: $bp2){
     height: 400px;
     padding-top: 100px;
@@ -44,9 +46,11 @@
   position: relative;
   z-index: 2;
   display: block;
-  width: 90%;
+  width: 100%;
+  padding: 0 25px;
   margin: auto;
   @media (min-width: $bp1){
+    padding: 0;
     width: 60%;
     margin: 0 15% 0 5%;
   }
