@@ -507,9 +507,12 @@ th {
   background-color: #eef3f2;
   text-align: center;
   position: relative;
-  padding-top: 75px;
+  padding-top: 80px;
   border-bottom: 20px solid #e9e4cf;
   height: 250px; }
+  @media (min-width: 461px) {
+    .venusaur {
+      padding-top: 70px; } }
   @media (min-width: 768px) {
     .venusaur {
       height: 400px;
@@ -543,10 +546,12 @@ th {
   position: relative;
   z-index: 2;
   display: block;
-  width: 90%;
+  width: 100%;
+  padding: 0 25px;
   margin: auto; }
   @media (min-width: 461px) {
     .logo {
+      padding: 0;
       width: 60%;
       margin: 0 15% 0 5%; } }
   @media (min-width: 1025px) {
