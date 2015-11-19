@@ -507,7 +507,8 @@ th {
   height: 100vh;
   background-color: #eef3f2;
   padding-top: 280px;
-  border-bottom: 130px solid #e9e4cf; }
+  border-bottom: 130px solid #e9e4cf;
+  text-align: center; }
 
 .ivysaur {
   position: absolute;
@@ -526,6 +527,9 @@ th {
   margin: auto; }
   .logo img {
     width: 100%; }
+
+.stadshal {
+  background: url(../img/stadshal.svg) center top no-repeat; }
 
 .charizard {
   padding: 100px 0 110px;
