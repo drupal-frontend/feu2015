@@ -239,7 +239,8 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -567,6 +568,7 @@ th {
 
 .buildings__container {
   position: relative;
+  overflow: hidden;
   max-width: 1500px;
   margin: 0 auto;
   height: 614px; }
