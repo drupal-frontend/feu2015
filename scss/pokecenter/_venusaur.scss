@@ -64,7 +64,7 @@
   }
 }
 
-.buildings{
+.pallet-town{
   height: 614px;
   position: absolute;
   bottom: 0;
@@ -72,14 +72,14 @@
   right: 0;
 }
 
-.buildings__container{
+.pallet-town__container{
   position: relative;
   max-width: 1500px;
   margin: 0 auto;
   height: 614px;
 }
 
-.building--stadshal{
+.building--gym {
   display: none;
   @media (min-width: $bp2){
     display: block;
@@ -92,7 +92,7 @@
   bottom: 0px;
   width: 200px;
 }
-.building--blaarmeersen{
+.building--pokecenter {
   left: 35%;
   position: absolute;
   bottom: -68px;
@@ -102,7 +102,7 @@
     display: block;
   }
 }
-.building--dullegriet{
+.building--bikeshop {
   display: none;
   @media (min-width: $bp2){
     display: block;
@@ -117,7 +117,7 @@
   bottom: -2px;
   width: 200px;
 }
-.building--belfort{
+.building--teamrockethq{
   opacity: 0.7;
   right: -2%;
   position: absolute;
