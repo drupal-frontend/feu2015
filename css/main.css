@@ -565,8 +565,14 @@ th {
   text-align: center; }
 
 .blastoise__wartortle {
-  display: inline-block;
-  margin: 0 40px; }
+  margin: 0 0 20px 0; }
+  @media screen and (min-width: 620px) {
+    .blastoise__wartortle {
+      display: inline-block;
+      margin: 0 20px; } }
+  @media screen and (min-width: 740px) {
+    .blastoise__wartortle {
+      margin: 0 40px; } }
   .blastoise__wartortle .addthis_horizontal_follow_toolbox {
     position: relative;
     top: 5px; }
@@ -576,15 +582,24 @@ th {
   display: block;
   font-size: 14px;
   font-family: 'DuplaLight-Light';
-  text-align: left;
   text-transform: uppercase;
-  text-decoration: none; }
+  text-decoration: none;
+  text-align: center; }
+  @media screen and (min-width: 620px) {
+    .blastoise__wartortle a {
+      text-align: left; } }
 
 .blastoise__wartortle h4 {
   font-size: 19px;
   font-family: 'Dupla-Bold';
   text-transform: none;
   margin: 0px; }
+
+.addthis_horizontal_follow_toolbox a {
+  float: none; }
+  @media screen and (min-width: 620px) {
+    .addthis_horizontal_follow_toolbox a {
+      float: left; } }
 
 .addthis_horizontal_follow_toolbox p {
   display: none; }

@@ -5,8 +5,14 @@
 }
 
 .blastoise__wartortle {
-  display: inline-block;
-  margin: 0 40px;
+  margin: 0 0 20px 0;
+  @media screen and (min-width: 620px) {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  @media screen and (min-width: 740px) {
+    margin: 0 40px;
+  }
   .addthis_horizontal_follow_toolbox {
     position: relative;
     top: 5px
@@ -18,9 +24,12 @@
   display: block;
   font-size: 14px;
   font-family: 'DuplaLight-Light';
-  text-align: left;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
+  @media screen and (min-width: 620px) {
+    text-align: left;
+  }
 }
 
 .blastoise__wartortle h4 {
@@ -31,6 +40,12 @@
 }
 
 .addthis_horizontal_follow_toolbox {
+  a {
+    float: none;
+    @media screen and (min-width: 620px) {
+      float: left;
+    }
+  }
   p {
     display: none;
   }
