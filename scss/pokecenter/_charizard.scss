@@ -8,11 +8,16 @@
 
 .mailchimp {
   max-width: 500px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 10px;
   h2 {
     font-family: 'Dupla-Bold';
-    font-size: 35px;
+    font-size: 25px;
     margin: 0 0 10px 0;
+    @media screen and (min-width: 635px) {
+      font-size: 35px;
+    }
   }
   input {
     width: 70%;

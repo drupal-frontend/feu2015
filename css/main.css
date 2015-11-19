@@ -533,11 +533,16 @@ th {
 
 .mailchimp {
   max-width: 500px;
-  margin: 0 auto; }
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px; }
   .mailchimp h2 {
     font-family: 'Dupla-Bold';
-    font-size: 35px;
+    font-size: 25px;
     margin: 0 0 10px 0; }
+    @media screen and (min-width: 635px) {
+      .mailchimp h2 {
+        font-size: 35px; } }
   .mailchimp input {
     width: 70%;
     float: left; }
