@@ -239,8 +239,7 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"],
-input[type="reset"],
+html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -642,16 +641,27 @@ th {
   padding: 0 25px; }
   .mailchimp h2 {
     font-family: 'Dupla-Bold';
-    font-size: 25px;
-    margin: 0 0 10px 0; }
+    font-size: 23px;
+    margin: 0 0 10px 0;
+    text-align: center; }
+    @media screen and (min-width: 461px) {
+      .mailchimp h2 {
+        font-size: 25px;
+        text-align: left; } }
     @media screen and (min-width: 635px) {
       .mailchimp h2 {
         font-size: 35px; } }
   .mailchimp input {
-    width: 70%;
-    float: left; }
+    width: 100%; }
+    @media screen and (min-width: 461px) {
+      .mailchimp input {
+        width: 70%;
+        float: left; } }
   .mailchimp .button {
-    width: 30%; }
+    width: 100%; }
+    @media screen and (min-width: 461px) {
+      .mailchimp .button {
+        width: 30%; } }
   .mailchimp div.mce_inline_error {
     font-family: 'DuplaLight-Light';
     float: left;
