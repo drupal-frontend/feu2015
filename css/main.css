@@ -743,6 +743,7 @@ th {
 
 input {
   padding: 15px;
+  border-radius: 0px;
   background: #eef3f2;
   color: #293a3c;
   border: 1px solid #eef3f2;
