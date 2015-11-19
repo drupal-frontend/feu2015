@@ -636,7 +636,7 @@ th {
   padding: 50px 0 60px;
   color: #fff;
   background: #293a3c; }
-  @media screen and (min-width: 635px) {
+  @media screen and (min-width: 768px) {
     .charizard {
       padding: 100px 0 110px; } }
 
