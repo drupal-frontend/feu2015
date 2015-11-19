@@ -1,6 +1,6 @@
 .charizard {
   padding: 50px 0 60px;
-  @media screen and (min-width: 635px) {
+  @media screen and (min-width: $bp2) {
     padding: 100px 0 110px;
   }
   color: $white;
