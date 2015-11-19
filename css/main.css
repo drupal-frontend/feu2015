@@ -239,7 +239,8 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -504,32 +505,104 @@ th {
   src: url("webfonts/2FB35D_F_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2FB35D_F_0.woff2") format("woff2"), url("webfonts/2FB35D_F_0.woff") format("woff"), url("webfonts/2FB35D_F_0.ttf") format("truetype"); }
 
 .venusaur {
-  height: 100vh;
+  height: 400px;
   background-color: #eef3f2;
-  padding-top: 280px;
-  border-bottom: 130px solid #e9e4cf;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+  border-bottom: 20px solid #e9e4cf; }
+  @media (min-width: 461px) {
+    .venusaur {
+      height: 600px; } }
+  @media (min-width: 1025px) {
+    .venusaur {
+      height: 920px; } }
+  @media (min-width: 461px) {
+    .venusaur {
+      padding-top: 200px;
+      border-bottom: 130px solid #e9e4cf; } }
 
 .ivysaur {
   position: absolute;
   z-index: 1;
   left: 0;
   right: 0;
-  top: 20px;
-  height: 400px;
-  background: url(../img/lights.svg) center top no-repeat; }
+  top: 5px;
+  height: 176px;
+  background: url(../img/lights.svg) center top no-repeat;
+  background-size: 2570.6px 175.7px; }
+  @media (min-width: 769px) {
+    .ivysaur {
+      height: 352px;
+      top: 10px;
+      background-size: 5141.2px 351.4px; } }
 
 .logo {
   position: relative;
   z-index: 2;
   display: block;
-  width: 600px;
-  margin: auto; }
+  width: 80%;
+  max-width: 800px;
+  margin: 0 15% 0 5%; }
+  @media (min-width: 769px) {
+    .logo {
+      margin: auto; } }
   .logo img {
     width: 100%; }
 
-.stadshal {
-  background: url(../img/stadshal.svg) center top no-repeat; }
+.buildings {
+  height: 614px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.buildings__container {
+  position: relative;
+  max-width: 1500px;
+  margin: 0 auto;
+  height: 614px; }
+
+.building--stadshal {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  width: 200px; }
+  @media (min-width: 769px) {
+    .building--stadshal {
+      display: block;
+      left: 15%; } }
+
+.building--blaarmeersen {
+  left: 35%;
+  position: absolute;
+  bottom: -68px;
+  width: 200px;
+  display: none; }
+  @media (min-width: 1400px) {
+    .building--blaarmeersen {
+      display: block; } }
+
+.building--dullegriet {
+  display: none;
+  position: absolute;
+  bottom: -2px;
+  width: 200px; }
+  @media (min-width: 1025px) {
+    .building--dullegriet {
+      display: block;
+      right: 30%; } }
+  @media (min-width: 1400px) {
+    .building--dullegriet {
+      right: 25%; } }
+
+.building--belfort {
+  right: 0%;
+  position: absolute;
+  width: 250px;
+  max-width: 25%;
+  max-height: 60vh;
+  bottom: 0px; }
 
 .charizard {
   padding: 100px 0 110px;
